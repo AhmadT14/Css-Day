@@ -1,0 +1,141 @@
+@import "./base.css";
+
+*{box-sizing: border-box;}
+
+.main-heading{
+    font-size: 128px;
+    font-weight: bold;
+}
+
+.main-sub-heading{
+    font-size: 40px;
+}
+
+
+.btn-primary{
+    background-color: var(--color-button-primary-bg);
+    color: var(--color-button-primary-text);
+}
+
+.btn-secondary{
+    background-color: var(--color-button-secondary-bg);
+    color: var(--color-button-secondary-text);
+}
+
+.btn-container{
+    display: flex;
+    margin-top: 100px;
+}
+
+.btn:not(.btn:last-of-type)
+{
+    margin-inline-end: 20px;
+}
+
+.btn-icon{
+    vertical-align: middle;
+}
+
+.btn:hover,.btn:focus{
+outline: 2px solid var(--color-text-primary);
+}
+
+@media(max-width:1220px)
+{
+    .home .main-heading{
+        font-size: 70px;
+    }
+}
+
+@media(max-width:590px)
+{
+    .home .main-heading{
+        font-size: 40px;
+    }
+
+    .home .main-sub-heading{
+        font-size: 24px;
+    }
+}
+/* header{
+    display: flex;
+    margin: 30px 60px;
+}
+
+.nav-container{
+    display: flex;
+    gap: 36px;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.image{
+    width: 34px;
+    height: 30px;
+}
+
+.nav-links{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+    list-style: none;
+    justify-content: flex-end;
+} */
+
+/* .brand{
+    flex-basis: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+main{
+    margin-top:203px ;
+    margin-left: 150px;
+    height: 775px;
+    width: 1160px;
+}
+.main-paragraph{
+    margin: 0;
+    padding: 0;
+    font-size: 128px;
+    line-height:154.91px
+}
+
+.date{
+    margin: 10px;
+    margin-bottom:100px;
+    padding: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.btn{
+    margin: 13px;
+    border: 0px;
+    padding:0 64px;
+    height: 100px;
+    font-size: 32px;
+    font-weight: 700;
+    color:var(--color-primary);
+    background-color:var(--color-text-primary);
+
+}
+
+.btn img{
+    margin-left: 20px;
+    margin-bottom: -8px;
+    width: 34px;
+    height: 38px;
+}
+
+.white-border{
+    color: var(--color-text-primary);
+    background-color: var(--color-primary);
+    border: 4px solid var(--color-text-primary);
+}
+
+@media(max-width:850px){
+
+} */

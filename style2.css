@@ -1,0 +1,152 @@
+@import "./base.css";
+
+.speakers .main-title {
+  font-size: 98px;
+}
+
+.shopping-cart-icon-primary g path {
+  fill: var(--color-primary);
+}
+
+.part {
+  max-width: 460px;
+}
+
+.parts {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 200px;
+  grid-row-gap: 120px;
+}
+
+.speaker-photo {
+  width: 310px;
+  height: 310px;
+  object-fit: cover;
+  margin-bottom: 36px;
+}
+
+.speaker-photo-top {
+  object-position: top;
+}
+
+.name {
+  margin-bottom: 20px;
+  font-size: 32px;
+}
+
+.speaker-company {
+  margin-bottom: 32px;
+  font-size: 24px;
+}
+
+.bio {
+  font-size: 20px;
+}
+
+.speaker-company,
+.bio {
+  color: var(--color-text-secondary);
+}
+
+@media(width < 1000px){
+    .parts{
+        grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width:840px){
+    .nav{
+        background-color: var(--color-text-primary);
+    }
+
+    .body-no-scroll{
+        overflow: hidden;
+    }
+
+}
+
+/* header{
+    display: flex;
+    margin: 30px 60px;
+} */
+
+/* .nav-container{
+    display: flex;
+    gap: 36px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.image {
+  filter: invert(51%) sepia(78%) saturate(513%) hue-rotate(-12deg);
+  width: 34px;
+    height: 30px;
+}
+
+.nav-links{
+    height:fit-content ;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 36px;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+a{
+
+    font-size: 20px;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.brand{
+    flex-basis: 100%;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.title{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 98px;
+    line-height: 118.6px;
+    letter-spacing: 0%;
+    margin-left: 150px;
+
+}
+
+.part img{
+    margin-bottom: 36px;
+    width: 310px;
+    height: 310px;
+}
+
+.parts{
+    gap: 123px;
+    margin: 150px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+p{
+    font-weight: 400;
+    color: var(--color-p-text);
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.paragraph{
+    font-weight: 400;
+    color: var(--color-p-text);
+    font-size: 20px;
+    width: 462px;
+    line-height: 24.2px;
+}
+
+h2{
+    font-size: 32px;
+    margin-bottom: 20px;
+} */
